@@ -71,7 +71,7 @@ int main(){
 		fprintf(temp,"%d %lf\n",i,times[i]);	
 	}
 	fprintf(gnu,"set title \"ACESSOS À MEMÓRIA EM C NO LINUX\"\n");
-	fprintf(gnu,"plot 'data.txt' with lines\n");	
+	fprintf(gnu,"plot 'data.txt'\n");	
 
 
 	
